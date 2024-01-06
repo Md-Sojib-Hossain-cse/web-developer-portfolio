@@ -1,6 +1,12 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* nav related style  */
 
 .primary-color {
     color: #FD6E0A;
@@ -22,6 +28,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 130px;
 }
 
 .nav-heading {
@@ -46,4 +53,20 @@ nav a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+
+
+/* header related style  */
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 130px;
+}
+
+.banner .profile-picture {
+    width: 500px;
 }
