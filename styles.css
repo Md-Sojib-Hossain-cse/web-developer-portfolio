@@ -211,12 +211,16 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-top:0px ;
+    margin-bottom: 10px;
 }
 
 .resume-item-institute {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .resume-item-description {
@@ -224,4 +228,14 @@ main section {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.resume-column hr{
+    margin-right: 20px;
+}
+.cv-button{
+    text-align: center;
+    margin-top: 50px;
 }
