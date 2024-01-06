@@ -239,3 +239,38 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+
+
+/* footer starts here  */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+.footer-column h3{
+    margin-top: 0;
+    margin-bottom:10px ;
+    text-align: left;
+}
+.footer-column p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.social-links a{
+    display: inline-block;
+    margin-right:8px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column input[type="text"] , .footer-column input[type="email"],.footer-column textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    width: 100%;
+}
